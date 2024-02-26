@@ -91,9 +91,11 @@ Towards the end of the study, we can see that the amount of users per day decrea
 
 ![SQL7 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/c92047eb-6314-409e-b557-926322b324a6)
 
-There is a positive correlation shown between the amount of steps acquired and the amount of calories burned each day, per user. This tell us that the more steps taken per day, the more calories that are burned. Users should strive to reach 10,000 steps per day as recommended by the CDC[^1]. A feature on Bellabeats' smart devices should incorporate this as a goal for users to meet. 
+There is a correlation shown between the amount of steps acquired and the amount of calories burned each day, per user. This tell us that the more steps taken per day, the more calories that are burned. Users should strive to reach 10,000 steps per day as recommended by the CDC[^1]. A feature on Bellabeats' smart devices should incorporate this as a goal for users to meet. 
 
 ![SQL8 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a7ebdb73-f653-4ab6-9211-41cdf0d60527)
+
+The amount of sleep users are getting shows to be related to the amount of sedentary minutes reported. When users are sleeping more, they spend less time sedentary, and therefore, more time active. Sleep is important and it is an important metric to tracked because it directly relates to one's health. 
 
 ![SQL11 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a465af52-1406-4cf4-ae54-62e05fc77e8c)
 
@@ -119,7 +121,17 @@ As shown by this query, all users average sedentary minutes were well above 4 ho
 
 # Step 6: Act
 
+## Key findings:
+ *
+ *
+ *
+ *
+ *
 
+ ## Recommendations
+
+
+ 
 
 Citations
 [^1]:Centers for Disease Control and Prevention. (n.d.). Physical Activity Basics. Retrieved from https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm
