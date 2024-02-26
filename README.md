@@ -79,7 +79,7 @@ Towards the end of the study, we can see that the amount of users per day decrea
 
 ![SQL6 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/66367d55-503e-45ff-9a1b-c4ac452d5b4a)
 
-![SQL6 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/c5866326-9961-4543-b8b7-312040631ee1)
+![SQL6 analysisvisual2](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/da3794df-6dbc-4b24-8fff-bdbdd8084518)
 
  These findings indicate a relationship between activity intensity and calorie expenditure. "Very Active" minutes burn the most calories, whereas "Lightly Active" minutes burn fewer. To enhance awareness of activity levels, a device feature should notify users of their current activity level, with daily summaries provided at the end of each day.
 
