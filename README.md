@@ -2,9 +2,9 @@
 A case study on smart device usage for the company Bellabeat, as part of the Google Data Analytics Specialization's capstone project. I have used SQL in Bigquery and created my visualizations by utilizing Tableau.
 
 This case study follows the six step data analysis process:
- * Ask 
+ * Ask
  * Prepare
- * Process 
+ * Process
  * Analyze
  * Share
  * Act
@@ -53,16 +53,19 @@ There are 33 users in the daily_activity, daily_calories, daily_intensities, hou
 ![SQL1 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/15cb7b54-5ef8-4079-a6f6-e47285a273aa)
 
 
-There is no strong correlation seen between amount of activity and each day of the week. However, we can see that the most desirable times of the day to be active is from 5:00 AM to 7:00 PM.
-
+This query shows the average steps, distance, and calories burned per day of the week. If we look at the amount of average steps and calories burned, we can conclude that users are most active on Saturdays and least active on Sundays. Also, the most desirable times of the day to be active is seen to be from 5:00 AM to 7:00 PM. We can use this information to allow for notifications on Bellabeat smart devices to cater specifically to these days and times throughout the week.
 
 ![2SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/06a7a22a-c25d-4d23-853a-d60859dd8772)
 
 ![2SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/168b45df-f0c4-47d7-935d-331a76e71bfc)
 
+Users are sleeping on average approximately 7 hours each night, and are in bed awake for approximately 39 minutes on average.  
+
 ![3SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/6f6dd074-4572-4f43-ab7d-f0e09e0aa642)
 
 ![3SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/77d63ad4-eb92-4ce8-9418-026c04e0f287)
+
+Based on these averages calculated from the sums of minutes spent on each activity per user, it shows that the majority of active minutes spent are sedentary minutes at an average of 81.3%. The least amount of minutes spent is in the Fairly Active activity level, with 1.1% of time spent in a day.
 
 ![4SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/d9ae7ae8-3b7c-4662-9380-9ca2cc92d5c1)
 
@@ -72,9 +75,13 @@ There is no strong correlation seen between amount of activity and each day of t
 
 ![SQL5 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/d9b9ab40-8567-4434-9a48-85f0cb9fe0ef)
 
+Towards the end of the study, we can see that the amount of users per day decreases. Bellabeat should aim to focus on user retention.
+
 ![SQL6 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/66367d55-503e-45ff-9a1b-c4ac452d5b4a)
 
 ![SQL6 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/c5866326-9961-4543-b8b7-312040631ee1)
+
+ These findings indicate a relationship between activity intensity and calorie expenditure. "Very Active" minutes burn the most calories, whereas "Lightly Active" minutes burn fewer. To enhance awareness of activity levels, a device feature should notify users of their current activity level, with daily summaries provided at the end of each day.
 
 ![SQL9 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/6a5be68a-c2c9-42f9-921d-ea44d491b640)
 
@@ -84,13 +91,41 @@ There is no strong correlation seen between amount of activity and each day of t
 
 ![SQL7 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/c92047eb-6314-409e-b557-926322b324a6)
 
+There is a positive correlation shown between the amount of steps acquired and the amount of calories burned each day, per user. This tell us that the more steps taken per day, the more calories that are burned. Users should strive to reach 10,000 steps per day as recommended by the CDC[^1]. A feature on Bellabeats' smart devices should incorporate this as a goal for users to meet. 
+
 ![SQL8 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a7ebdb73-f653-4ab6-9211-41cdf0d60527)
 
 ![SQL11 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a465af52-1406-4cf4-ae54-62e05fc77e8c)
 
 ![SQL11 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/73382f16-d7e4-46e1-819b-d8f0005d2070)
 
-![Bellabeat Dashboard](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a82d54d0-64c7-43fc-a81d-3ca6fd1d0ab7)
+According to the charity Just Stand[^2], the following thresholds determine a person's risk of developing health problems due to sitting:
+ * Low Risk: Sitting for less than 4 hours per day.
+ * Medium Risk: Sitting for 4-8 hours per day.
+ * High Risk: Sitting for 8-11 hours per day.
+
+As shown by this query, all users average sedentary minutes were well above 4 hours (240 minutes) per day. This increases their risk level of developing future health problems and should be made aware of while using a smart device. 
+
+# Step 5: Share
+
+## User Activity Dashboard
+
+![Bellabeat dashboard1](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/053b274c-f03a-464d-ac2f-9e3a9ff210b3)
+
+## User Caloric Expenditure Dashboard
+
+![Bellabeat dashboard2](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/6a3feaef-0cec-476f-8698-45d344a52364)
+
+
+# Step 6: Act
+
+
+
+Citations
+[^1]:Centers for Disease Control and Prevention. (n.d.). Physical Activity Basics. Retrieved from https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm
+
+[^2]:Sitting Time Calculator. https://www.juststand.org/the-tools/sitting-time-calculator/. This calculator determines "Risk for Sitting Disease" using thresholds defined by research published in Arch Intern Med. 2012;172(6). Dr. David Dunston summarizes the findings in this video from the 2012 JustStand Wellness Summit.
+
 
 
 
