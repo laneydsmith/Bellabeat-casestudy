@@ -73,19 +73,19 @@ From the average sums of minutes per user for each activity, it's evident that t
 
 ![4SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/71c4683c-f36c-47d2-9bd2-d4d02e5af9d3)
 
-There is plenty of variability in the total amount of calories burned per user. There are many different factors that can play a part in this including, but not limited to, activity level, body composition, sleep, age, and gender. Women burn less calories than men in addition to having less muscle and more body fat according to the Mayo Clinic[^3]. We can assume that in this study, men will have higher records of total calories burned than women.
+There is variability in the total amount of calories burned per user. Many different factors that can play a part in this including, but not limited to, activity level, body composition, sleep, age, and gender. Women burn less calories than men in addition to having less muscle and more body fat according to the Mayo Clinic.[^3] We can assume that in this study, men will have higher records of total calories burned than women.
 
 ![SQL5 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/7cc7f445-700a-4d6b-bbd6-705e5af65b1d)
 
 ![SQL5 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/d9b9ab40-8567-4434-9a48-85f0cb9fe0ef)
 
-Towards the end of the study, we can see that the amount of users per day decreases.
+Starting from April 16, 2016, we can see that the amount of users per day decreases ending at 21 users on May 12, 2016. This is approximately a 36.36% decrease in user participation from day 1 to day 30 of the study. 
 
 ![SQL6 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/66367d55-503e-45ff-9a1b-c4ac452d5b4a)
 
 ![SQL6 analysisvisual2](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/da3794df-6dbc-4b24-8fff-bdbdd8084518)
 
- These findings indicate a relationship between activity intensity and calorie expenditure. "Very Active" minutes burn the most calories, whereas "Lightly Active" minutes burn fewer. To enhance awareness of activity levels, a device feature should notify users of their current activity level, with daily summaries provided at the end of each day.
+ These findings indicate a relationship between activity intensity and calorie expenditure. "Very Active" minutes burn the most calories, whereas "Lightly Active" minutes burn fewest amount of calories. 
 
 ![SQL9 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/6a5be68a-c2c9-42f9-921d-ea44d491b640)
 
@@ -93,20 +93,26 @@ Towards the end of the study, we can see that the amount of users per day decrea
 
 ![SQL10 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/87a8fb60-2698-4bcd-abb7-cb04ef8999e0)
 
+Based on the averages of each activity level for each user per day, sedentary time ranges from 69% to 97%. Conversely, very active time spans from 0.0097% to 8.57%. Notably, the user with the lowest sedentary percentage is the same user that exhibits the highest very active percentage. The approximate overall averages for Active Minutes per day are:
+ - Lightly Active Minutes: 192.81 min.
+ - Fairly Active Minutes: 13.56 min.
+ - Very Active Minutes: 21.16 min.
+The average amount of calories burned per day in this study is approx. 2303.61 calories.
+
 ![SQL7 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/c92047eb-6314-409e-b557-926322b324a6)
 
-There is a correlation shown between daily step count and calorie expenditure per user, indicating that increased steps correlate with higher calorie burn. Users should strive to reach 10,000 steps per day as recommended by the CDC[^1]. 
+There is a correlation shown between daily step count and calorie expenditure per user, indicating that increased steps correlate with higher calorie burn. Users should strive to reach 10,000 steps per day as recommended by the CDC.[^1]
 
-![SQL11 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a465af52-1406-4cf4-ae54-62e05fc77e8c)
+![SQLhighrisk analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a9419eab-ae5c-4ff5-8ffe-a3201128028d)
 
 ![SQL11 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/73382f16-d7e4-46e1-819b-d8f0005d2070)
 
-According to the charity Just Stand[^2], the following thresholds determine a person's risk of developing health problems due to sitting:
+According to the charity Just Stand,[^2] the following thresholds determine a person's risk of developing health problems due to sitting:
  * Low Risk: Sitting for less than 4 hours per day.
  * Medium Risk: Sitting for 4-8 hours per day.
  * High Risk: Sitting for 8-11 hours per day.
 
-This query reveals that all users averaged more than 4 hours (240 minutes) of sedentary time per day, heightening their risk of future health issues.
+This query reveals that all users averaged more than the suggested limit of 4 hours (240 minutes) of sedentary time per day, heightening their risk of future health issues.
 
 # Step 5: Share
 
@@ -121,19 +127,33 @@ This query reveals that all users averaged more than 4 hours (240 minutes) of se
 
 # Step 6: Act
 
-## Key findings:
- * 
+## Conclusion and Key findings:
 
- ## Recommendations
- * Bellabeats' smart devices should comprehensively track sleep time to promote greater activity levels.
- *  We can use this information to allow for notifications on Bellabeat smart devices to cater specifically to these days and times throughout the week.
- *  Bellabeat should aim to focus on user retention
- * A feature on Bellabeats' smart devices should incorporate 10,000 steps as a goal for users to meet. 
- * all users averaged more than 4 hours (240 minutes) of sedentary time per day, heightening their risk of future health issues. Bellabeats' smart device software should incorporate goals aimed at reducing sedentary time each day to mitigate these risks effectively.
- * Specifically cater to women's health using research about women only, since men and women differ in body composition
+ * Users are most active on Saturdays and least active on Sundays. The most desirable times of the day to be active are also between the times of 5:00 AM to 7:00 PM.
+ * Users are getting approx. 7 hours of sleep each night, and are lying in bed awake for 39 minutes. Increased sleep correlates with a decrease in sedentary time.
+ * Users are spending on average 81% of their daily active minutes being sedentary, about 12 hours a day. They also spend 4 hours lightly active, and only 30 minutes fairly active or very active. 100% of these users are considered to be at a higher risk of developing future health problems due to the amount of time they are sedentary.
+ * The number of steps a user takes has a positive correlation with the amount of calories burned.
+ * Comparing daily activity levels, very active minutes burns the most calories.
+ * There more time that went on, the less users were using their smart device.
+
+ ## Recommendations to expand globally:
+ * Collect more data for an another accurate analysis by incorporating a user profile that contains key demographics such as age, weight, height and current activity levels. A larger sample size of women is also needed to gain further insight on the target audience.
+
+ * Educational campaign on how women differ from men when it comes to the journey of being healthy could attract more consumers wanting products that specifically cater to this demographic.
+
+ * Bellabeats' smart device, leaf wellness tracker, should comprehensively track sleep time and offer goals of at least 7-8 hours a day of sleep to promote more time spent being active. Sleep reminders and "wind down time" notifications could help with the transition of falling asleep.
+
+ * An in-product educational health campaign could help to attract more healthy activity, and therefore, using the Bellabeat's product more frequently.
+
+ * To maintain a high user retention rate, Bellabeat should reward long standing members and create long term health goals for each user. In addition, to keep users from removing the smart device, Bellabeat should focus on the comfortability of their product so that users feel comfortable wearing the device throughout the day, and while sleeping.
+   
+ * The smart device should set up goals equipped with reminders to incentivize being more active such as 10,000 steps a day, 7-8 hours of sleep, and less than 4 hours of sedentary time. These goals can be adjusted depending on current level of activity, but completing these goals consistently could contribute to receiving Bellabeat points toward discounts on products or subscriptions.
+ 
+ * Bellabeat users should create their own profile consisting of their key demographics and goals to choose from that they would like to meet. In this profile, they should also set up a window of time per day that they are awake to recieve reminders of said goals.
+ 
+ * To enhance awareness of time in different activity levels, a device feature should notify users of their current activity level (sedentary, fairly active, lightly active, very active) with daily summaries provided at the end of each day. A campaign should also be made to educate consumers on how more calories are burned at a higher activity level, and what metrics qualify a person to be in each activity level. 
 
  
-
 Citations
 [^1]:Centers for Disease Control and Prevention. (n.d.). Physical Activity Basics. Retrieved from https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm
 
