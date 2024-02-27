@@ -34,7 +34,7 @@ In order to complete Bellabeat's Business Tasks, I will be using Fitbit Fitness 
 The Data set contains 18 CSV files organized in long format. I will be using 8 of these files for my analysis.  
 
 ## Dataset Considerations
-The dataset comprises information from 33 Fitbit users who authorized the sharing of their personal tracker data consisting of physical activity, heart rate, and sleep monitoring. However, teh dataset has limitations. It is dated, spanning from April 12, 2016 to May 12, 2016, covering a 31-day duration. There are also demographic details such as gender, location, and age that are absent, introducing certain constraints. Additionally, the dataset includes 30 users, with the selection criteria for this sample remaining unknown. Despite these limitations, the insights derived from this dataset hold significance and serve as the foundation of my analysis.
+The dataset comprises information from 33 Fitbit users who authorized the sharing of their personal tracker data consisting of physical activity, heart rate, and sleep monitoring. However, the dataset has limitations. It is dated, spanning from April 12, 2016 to May 12, 2016, covering a 31-day duration. There are also demographic details such as gender, location, and age that are absent, introducing certain constraints. Additionally, the dataset includes 30 users, with the selection criteria for this sample remaining unknown. Despite these limitations, the insights derived from this dataset hold significance and serve as the foundation of my analysis.
 
 For this analysis, I cleaned and analyzed the data using BigQuery for SQL and created visualizations using Tableau.
 
@@ -53,29 +53,33 @@ There are 33 users in the daily_activity, daily_calories, daily_intensities, hou
 ![SQL1 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/15cb7b54-5ef8-4079-a6f6-e47285a273aa)
 
 
-This query shows the average steps, distance, and calories burned per day of the week. If we look at the amount of average steps and calories burned, we can conclude that users are most active on Saturdays and least active on Sundays. Also, the most desirable times of the day to be active is seen to be from 5:00 AM to 7:00 PM. We can use this information to allow for notifications on Bellabeat smart devices to cater specifically to these days and times throughout the week.
+This query shows the average steps, distance, and calories burned per day of the week. If we look at the amount of average steps and calories burned, we can conclude that users are most active on Saturdays and least active on Sundays. We can also see from more of the data that the most desirable times of the day to be active is from 5:00 AM to 7:00 PM.
 
 ![2SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/06a7a22a-c25d-4d23-853a-d60859dd8772)
 
 ![2SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/168b45df-f0c4-47d7-935d-331a76e71bfc)
 
-Users are sleeping on average approximately 7 hours each night, and are in bed awake for approximately 39 minutes on average.  
+![SQL8 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a7ebdb73-f653-4ab6-9211-41cdf0d60527)
+
+On average, users are sleeping for approximately 7 hours each night, and are in bed awake for approximately 39 minutes. The duration of sleep among users appears linked to their reported sedentary minutes. Increased sleep correlates with reduced sedentary time and therefore, more active periods. Given its direct impact on health, sleep is a crucial metric to monitor.
 
 ![3SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/6f6dd074-4572-4f43-ab7d-f0e09e0aa642)
 
 ![3SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/77d63ad4-eb92-4ce8-9418-026c04e0f287)
 
-Based on these averages calculated from the sums of minutes spent on each activity per user, it shows that the majority of active minutes spent are sedentary minutes at an average of 81.3%. The least amount of minutes spent is in the Fairly Active activity level, with 1.1% of time spent in a day.
+From the average sums of minutes per user for each activity, it's evident that the majority of active minutes are spent in sedentary activities, averaging 81.3%. Conversely, the Fairly Active activity level constitutes the smallest portion of time spent in a day, at just 1.1%.
 
 ![4SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/d9ae7ae8-3b7c-4662-9380-9ca2cc92d5c1)
 
 ![4SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/71c4683c-f36c-47d2-9bd2-d4d02e5af9d3)
 
+There is plenty of variability in the total amount of calories burned per user. There are many different factors that can play a part in this including, but not limited to, activity level, body composition, sleep, age, and gender. Women burn less calories than men in addition to having less muscle and more body fat according to the Mayo Clinic[^3]. We can assume that in this study, men will have higher records of total calories burned than women.
+
 ![SQL5 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/7cc7f445-700a-4d6b-bbd6-705e5af65b1d)
 
 ![SQL5 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/d9b9ab40-8567-4434-9a48-85f0cb9fe0ef)
 
-Towards the end of the study, we can see that the amount of users per day decreases. Bellabeat should aim to focus on user retention.
+Towards the end of the study, we can see that the amount of users per day decreases.
 
 ![SQL6 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/66367d55-503e-45ff-9a1b-c4ac452d5b4a)
 
@@ -91,11 +95,7 @@ Towards the end of the study, we can see that the amount of users per day decrea
 
 ![SQL7 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/c92047eb-6314-409e-b557-926322b324a6)
 
-There is a correlation shown between the amount of steps acquired and the amount of calories burned each day, per user. This tell us that the more steps taken per day, the more calories that are burned. Users should strive to reach 10,000 steps per day as recommended by the CDC[^1]. A feature on Bellabeats' smart devices should incorporate this as a goal for users to meet. 
-
-![SQL8 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a7ebdb73-f653-4ab6-9211-41cdf0d60527)
-
-The amount of sleep users are getting shows to be related to the amount of sedentary minutes reported. When users are sleeping more, they spend less time sedentary, and therefore, more time active. Sleep is important and it is an important metric to tracked because it directly relates to one's health. 
+There is a correlation shown between daily step count and calorie expenditure per user, indicating that increased steps correlate with higher calorie burn. Users should strive to reach 10,000 steps per day as recommended by the CDC[^1]. 
 
 ![SQL11 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a465af52-1406-4cf4-ae54-62e05fc77e8c)
 
@@ -106,7 +106,7 @@ According to the charity Just Stand[^2], the following thresholds determine a pe
  * Medium Risk: Sitting for 4-8 hours per day.
  * High Risk: Sitting for 8-11 hours per day.
 
-As shown by this query, all users average sedentary minutes were well above 4 hours (240 minutes) per day. This increases their risk level of developing future health problems and should be made aware of while using a smart device. 
+This query reveals that all users averaged more than 4 hours (240 minutes) of sedentary time per day, heightening their risk of future health issues.
 
 # Step 5: Share
 
@@ -122,14 +122,15 @@ As shown by this query, all users average sedentary minutes were well above 4 ho
 # Step 6: Act
 
 ## Key findings:
- *
- *
- *
- *
- *
+ * 
 
  ## Recommendations
-
+ * Bellabeats' smart devices should comprehensively track sleep time to promote greater activity levels.
+ *  We can use this information to allow for notifications on Bellabeat smart devices to cater specifically to these days and times throughout the week.
+ *  Bellabeat should aim to focus on user retention
+ * A feature on Bellabeats' smart devices should incorporate 10,000 steps as a goal for users to meet. 
+ * all users averaged more than 4 hours (240 minutes) of sedentary time per day, heightening their risk of future health issues. Bellabeats' smart device software should incorporate goals aimed at reducing sedentary time each day to mitigate these risks effectively.
+ * Specifically cater to women's health using research about women only, since men and women differ in body composition
 
  
 
@@ -138,6 +139,7 @@ Citations
 
 [^2]:Sitting Time Calculator. https://www.juststand.org/the-tools/sitting-time-calculator/. This calculator determines "Risk for Sitting Disease" using thresholds defined by research published in Arch Intern Med. 2012;172(6). Dr. David Dunston summarizes the findings in this video from the 2012 JustStand Wellness Summit.
 
+[^3]: Mayo Clinic Staff. (2022). Metabolism and weight loss: How you burn calories. Mayo Clinic. https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/metabolism/art-20046508#:~:text=People%20who%20are%20larger%20or,means%20men%20burn%20more%20calories.
 
 
 
