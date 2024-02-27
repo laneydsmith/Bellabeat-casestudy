@@ -93,7 +93,7 @@ Starting from April 16, 2016, we can see that the amount of users per day decrea
 
 ![SQL10 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/87a8fb60-2698-4bcd-abb7-cb04ef8999e0)
 
-Based on the averages of each activity level for each user per day, sedentary time ranges from 69% to 97%. Conversely, very active time spans from 0.0097% to 8.57%. Notably, the user with the lowest sedentary percentage is the same user that exhibits the highest very active percentage. The approximate overall averages for Active Minutes per day are:
+Based on the averages of the daily activity levels for each user per day, sedentary time ranges from 69% to 97%. Conversely, very active time spans from 0.0097% to 8.57%. Notably, the user with the lowest sedentary percentage is the same user that exhibits the highest very active percentage. The approximate overall averages for Active Minutes per day are:
  - Lightly Active Minutes: 192.81 min.
  - Fairly Active Minutes: 13.56 min.
  - Very Active Minutes: 21.16 min.
