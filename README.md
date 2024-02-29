@@ -49,6 +49,8 @@ There are 33 users in the daily_activity, daily_calories, daily_intensities, hou
 ![4SQL cleaning](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/b30146a0-551c-4f34-aaf9-ba869036d2c7)
 
 # Step 4: Analyze
+To analyze this dataset, I will transform the data to identify patterns and draw conclusions. In order to make observations by the daily and hourly intervals, I will use The Id column, which is a primary key that corresponds between each of the data tables. I have also created calculated fields in Tableau to provide further insights.
+
 ![1SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/0722460b-5c3c-4d33-a292-03b74001ff2b)
 ![SQL1 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/15cb7b54-5ef8-4079-a6f6-e47285a273aa)
 
