@@ -52,7 +52,6 @@ There are 33 users in the daily_activity, daily_calories, daily_intensities, hou
 ![1SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/0722460b-5c3c-4d33-a292-03b74001ff2b)
 ![SQL1 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/15cb7b54-5ef8-4079-a6f6-e47285a273aa)
 
-
 This query shows the average steps, distance, and calories burned per day of the week. Looking at the amount of average steps and calories burned, we can conclude that users are most active on Saturdays and least active on Sundays. We can also see from more of the data that the most desirable times of the day to be active is from 5:00 AM to 7:00 PM.
 
 ![2SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/06a7a22a-c25d-4d23-853a-d60859dd8772)
