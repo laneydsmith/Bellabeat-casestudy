@@ -43,13 +43,13 @@ To process this data, I have cleaned and formatted the data to be clear and conc
 ![1SQL cleaning](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/bb060a54-677c-4a31-ad42-281529130898)
 ![2SQL cleaning](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/75f0380b-72f7-4e59-9e65-cba84227772a)
 
-There are 33 users in the daily_activity, daily_calories, daily_intensities, hourly_activity, hourly_intensities, hourly_calories, and hourly_steps tables. There is 24 users in the sleep_day table. In the heartrate_seconds table there are only 7 users and in the weight_log table there are 8 users. Due to this small sample size in both of these tables, I have decided to not include them in my analysis.
+There are 33 users in the 'daily_activity', 'daily_calories', 'daily_intensities', 'hourly_activity', 'hourly_intensities', 'hourly_calories', and 'hourly_steps' tables. There is 24 users in the 'sleep_day' table. In the 'heartrate_seconds' table consists of only 7 users and the 'weight_log' table consists of 8 users. Due to the sample sizes of 'heartrate_seconds' and 'weight_log', I have decided to not include them in my analysis.
 
 ![3SQL cleaning](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/5d4809b1-0fb9-418e-b516-931a278163b8)
 ![4SQL cleaning](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/b30146a0-551c-4f34-aaf9-ba869036d2c7)
 
 # Step 4: Analyze
-To analyze this dataset, I will transform the data to identify patterns and draw conclusions. In order to make observations by the daily and hourly intervals, I will use The Id column, which is a primary key that corresponds between each of the data tables. I have also created calculated fields in Tableau to provide further insights.
+To analyze this dataset, I will transform the data to identify patterns and draw conclusions. In order to make observations by the daily and hourly intervals, I will use the 'Id' column, which is a primary key that corresponds between each of the data tables. I have also created calculated fields in Tableau to provide further insights.
 
 ![1SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/0722460b-5c3c-4d33-a292-03b74001ff2b)
 ![SQL1 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/15cb7b54-5ef8-4079-a6f6-e47285a273aa)
