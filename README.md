@@ -53,7 +53,7 @@ There are 33 users in the daily_activity, daily_calories, daily_intensities, hou
 ![SQL1 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/15cb7b54-5ef8-4079-a6f6-e47285a273aa)
 
 
-This query shows the average steps, distance, and calories burned per day of the week. If we look at the amount of average steps and calories burned, we can conclude that users are most active on Saturdays and least active on Sundays. We can also see from more of the data that the most desirable times of the day to be active is from 5:00 AM to 7:00 PM.
+This query shows the average steps, distance, and calories burned per day of the week. Looking at the amount of average steps and calories burned, we can conclude that users are most active on Saturdays and least active on Sundays. We can also see from more of the data that the most desirable times of the day to be active is from 5:00 AM to 7:00 PM.
 
 ![2SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/06a7a22a-c25d-4d23-853a-d60859dd8772)
 
@@ -67,13 +67,13 @@ On average, users are sleeping for approximately 7 hours each night, and are in 
 
 ![3SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/77d63ad4-eb92-4ce8-9418-026c04e0f287)
 
-From the average sums of minutes per user for each activity, it's evident that the majority of active minutes are spent in sedentary activities, averaging 81.3%. Conversely, the Fairly Active activity level constitutes the smallest portion of time spent in a day, at just 1.1%.
+From the average sums of minutes per user for each activity, it's evident that the majority of active minutes are spent in sedentary activities, averaging 81.3%. Conversely, the Fairly Active activity level is the smallest portion of time spent in a day, at just 1.1%.
 
 ![4SQL analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/d9ae7ae8-3b7c-4662-9380-9ca2cc92d5c1)
 
 ![4SQL analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/71c4683c-f36c-47d2-9bd2-d4d02e5af9d3)
 
-There is variability in the total amount of calories burned per user. Many different factors that can play a part in this including, but not limited to, activity level, body composition, sleep, age, and gender. Women burn less calories than men in addition to having less muscle and more body fat according to the Mayo Clinic.[^3] We can assume that in this study, men will have higher records of total calories burned than women.
+There is variability in the total amount of calories burned per user suggesting that many different factors play a part in this including, but not limited to, activity level, body composition, sleep, age, and gender. Women burn less calories than men in addition to having less muscle and more body fat according to the Mayo Clinic.[^3] We can assume that in this study, men will have higher records of total calories burned than women.
 
 ![SQL5 analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/7cc7f445-700a-4d6b-bbd6-705e5af65b1d)
 
@@ -101,7 +101,7 @@ The average amount of calories burned per day in this study is approx. 2303.61 c
 
 ![SQL7 analysisvisual](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/c92047eb-6314-409e-b557-926322b324a6)
 
-There is a correlation shown between daily step count and calorie expenditure per user, indicating that increased steps correlate with higher calorie burn. Users should strive to reach 10,000 steps per day as recommended by the CDC.[^1]
+There is a positive correlation shown between daily step count and calorie expenditure per user, indicating that increased steps correlate with higher calorie burn. Users should strive to reach 10,000 steps per day as recommended by the CDC.[^1]
 
 ![SQLhighrisk analysis](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/a9419eab-ae5c-4ff5-8ffe-a3201128028d)
 
@@ -145,6 +145,8 @@ This query reveals that all users averaged more than the suggested limit of 4 ho
  * Very active minutes yield the highest calorie burn when comparing daily activity levels.
    
  * As time progresses, users are less engaged with their smart devices.
+
+ * Variability in the total amount of calories burned per user suggests more contributing factors such as age, gender, body composition, and previous activity.
 
  ## Recommendations to expand globally:
 
