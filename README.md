@@ -125,34 +125,47 @@ This query reveals that all users averaged more than the suggested limit of 4 ho
 ![Bellabeat dashboard2](https://github.com/laneydsmith/Bellabeat-casestudy/assets/153331633/6a3feaef-0cec-476f-8698-45d344a52364)
 
 
+> [!NOTE]
+> View the interactive dashboards on my [Tableau Profile](https://public.tableau.com/app/profile/delaney.smith8257/vizzes)
+
+
+
 # Step 6: Act
 
 ## Conclusion and Key findings:
 
- * Users are most active on Saturdays and least active on Sundays. The most desirable times of the day to be active are also between the times of 5:00 AM to 7:00 PM.
- * Users are getting approx. 7 hours of sleep each night, and are lying in bed awake for 39 minutes. Increased sleep correlates with a decrease in sedentary time.
- * Users are spending on average 81% of their daily active minutes being sedentary, about 12 hours a day. They also spend 4 hours lightly active, and only 30 minutes fairly active or very active. 100% of these users are considered to be at a higher risk of developing future health problems due to the amount of time they are sedentary.
- * The number of steps a user takes has a positive correlation with the amount of calories burned.
- * Comparing daily activity levels, very active minutes burns the most calories.
- * There more time that went on, the less users were using their smart device.
+ * The most desirable times of the day to be active is between 5:00 AM to 7:00 AM. Additionally, users are most active on Saturdays and least active on Sundays.
+   
+ * On average, users sleep approximately 7 hours per night, with 39 minutes spent awake in bed. More sleep is associated with reduced sedentary behavior.
+   
+ * Users are spending on average 81% of their daily active minutes being sedentary, about 12 hours a day. They also spend 4 hours lightly active, and only 30 minutes fairly active or very active. 100% of these users are considered to be at a higher risk of developing future health problems due to prolonged sedentary time.
+   
+ * The number of steps a user takes correlates positively with calorie expenditure.
+  
+ * Very active minutes yield the highest calorie burn when comparing daily activity levels.
+   
+ * As time progresses, users are less engaged with their smart devices.
 
  ## Recommendations to expand globally:
- * Collect more data for an another accurate analysis by incorporating a user profile that contains key demographics such as age, weight, height and current activity levels. A larger sample size of women is also needed to gain further insight on the target audience.
 
- * Educational campaign on how women differ from men when it comes to the journey of being healthy could attract more consumers wanting products that specifically cater to this demographic.
+ * **Goals and Rewards**
+ * Develop goal-oriented features within the smart device to promote increased activity levels, such as setting targets for steps, sleep duration, and sedentary time. Consider offering points to users who consistently meet these goals and reward the points with discounts on products or subscriptions.
 
- * Bellabeats' smart device, leaf wellness tracker, should comprehensively track sleep time and offer goals of at least 7-8 hours a day of sleep to promote more time spent being active. Sleep reminders and "wind down time" notifications could help with the transition of falling asleep.
+ * **Health Summaries** Formulate summaries at the end of each day, week, month, and year through the Bellabeat app for users to review. At the end of each month and year, ask users if they would like to adjust their goals. This will keep users informed of their own health metrics to promote a healthy lifestyle.
 
- * An in-product educational health campaign could help to attract more healthy activity, and therefore, using the Bellabeat's product more frequently.
+ * **Daily Health Facts** Set up reminders through the BellaBeat app that coincide with daily health facts for users to log additional activity or review their daily summaries. For example, a reminder that states the following: "Did you know that the CDC recommends 10,000 steps per day to promote overall health? Log/view your steps to see how you did". This feature could encourage healthier habits and increase usage of Bellabeat's products.
 
- * To maintain a high user retention rate, Bellabeat should reward long standing members and create long term health goals for each user. In addition, to keep users from removing the smart device, Bellabeat should focus on the comfortability of their product so that users feel comfortable wearing the device throughout the day, and while sleeping.
+ * **Women's Health Educational Campaign** Raising awareness on the differences between men and women's health could attract women seeking products tailored to their needs. Educating the public about Women's health specifically could set Bellabeat a part from other smart devices on the market.
    
- * The smart device should set up goals equipped with reminders to incentivize being more active such as 10,000 steps a day, 7-8 hours of sleep, and less than 4 hours of sedentary time. These goals can be adjusted depending on current level of activity, but completing these goals consistently could contribute to receiving Bellabeat points toward discounts on products or subscriptions.
- 
- * Bellabeat users should create their own profile consisting of their key demographics and goals to choose from that they would like to meet. In this profile, they should also set up a window of time per day that they are awake to recieve reminders of said goals.
- 
- * To enhance awareness of time in different activity levels, a device feature should notify users of their current activity level (sedentary, fairly active, lightly active, very active) with daily summaries provided at the end of each day. A campaign should also be made to educate consumers on how more calories are burned at a higher activity level, and what metrics qualify a person to be in each activity level. 
+ * **Sleep Monitoring** Bellabeats' smart device, leaf wellness tracker, should comprehensively track sleep time and offer goals of at least 7-8 hours a day of sleep. Implement sleep reminders and "wind down time" notifications to help with the transition of falling asleep.
 
+ * **User Retention** To maintain a high user retention rate, Bellabeat should reward long standing members and create long term health goals for each user. In addition, to minimize the time users are not wearing the smart device, Bellabeat should focus on the comfortability of their product so users can continue wearing the device throughout the day, even while sleeping.
+ 
+ * **Personalized Health Programs** Provide users with the ability to create personalized profiles containing categories like gender, age, weight, height, BMI, and current activity. Users can also choose which goals they would like to focus on, and set up a window of time to receive reminders.
+ 
+ * **Activity Intensity Notifications** To raise awareness of different activity intensity levels, the device should notify users of their current activity level (sedentary, fairly active, lightly active, very active). An educational campaign could also explain how higher activity levels result in more calorie burn and clarify the metrics defining each activity level.
+  
+* **Research and Development** Invest in collecting more data with larger sample sizes containing key demographics such as gender, age, weight, height, and BMI. Research that focuses on Women's health will help to gain further insight on the target audience. 
  
 Citations
 [^1]:Centers for Disease Control and Prevention. (n.d.). Physical Activity Basics. Retrieved from https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm
