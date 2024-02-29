@@ -148,8 +148,7 @@ This query reveals that all users averaged more than the suggested limit of 4 ho
 
  ## Recommendations to expand globally:
 
- * **Goals and Rewards:**
- * Develop goal-oriented features within the smart device to promote increased activity levels, such as setting targets for steps, sleep duration, and sedentary time. Consider offering points to users who consistently meet these goals and reward the points with discounts on products or subscriptions.
+ * **Goals and Rewards:** Develop goal-oriented features within the smart device to promote increased activity levels, such as setting targets for steps, sleep duration, and sedentary time. Consider offering points to users who consistently meet these goals and reward the points with discounts on products or subscriptions.
 
  * **Health Summaries:** Formulate summaries at the end of each day, week, month, and year through the Bellabeat app for users to review. At the end of each month and year, ask users if they would like to adjust their goals. This will keep users informed of their own health metrics to promote a healthy lifestyle.
 
