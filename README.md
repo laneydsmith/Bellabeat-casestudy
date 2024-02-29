@@ -148,24 +148,24 @@ This query reveals that all users averaged more than the suggested limit of 4 ho
 
  ## Recommendations to expand globally:
 
- * **Goals and Rewards**
+ * **Goals and Rewards:**
  * Develop goal-oriented features within the smart device to promote increased activity levels, such as setting targets for steps, sleep duration, and sedentary time. Consider offering points to users who consistently meet these goals and reward the points with discounts on products or subscriptions.
 
- * **Health Summaries** Formulate summaries at the end of each day, week, month, and year through the Bellabeat app for users to review. At the end of each month and year, ask users if they would like to adjust their goals. This will keep users informed of their own health metrics to promote a healthy lifestyle.
+ * **Health Summaries:** Formulate summaries at the end of each day, week, month, and year through the Bellabeat app for users to review. At the end of each month and year, ask users if they would like to adjust their goals. This will keep users informed of their own health metrics to promote a healthy lifestyle.
 
- * **Daily Health Facts** Set up reminders through the BellaBeat app that coincide with daily health facts for users to log additional activity or review their daily summaries. For example, a reminder that states the following: "Did you know that the CDC recommends 10,000 steps per day to promote overall health? Log/view your steps to see how you did". This feature could encourage healthier habits and increase usage of Bellabeat's products.
+ * **Daily Health Facts:** Set up reminders through the BellaBeat app that coincide with daily health facts for users to log additional activity or review their daily summaries. For example, a reminder that states the following: "Did you know that the CDC recommends 10,000 steps per day to promote overall health? Log/view your steps to see how you did". This feature could encourage healthier habits and increase usage of Bellabeat's products.
 
- * **Women's Health Educational Campaign** Raising awareness on the differences between men and women's health could attract women seeking products tailored to their needs. Educating the public about Women's health specifically could set Bellabeat a part from other smart devices on the market.
+ * **Women's Health Educational Campaign:** Raising awareness on the differences between men and women's health could attract women seeking products tailored to their needs. Educating the public about Women's health specifically could set Bellabeat a part from other smart devices on the market.
    
- * **Sleep Monitoring** Bellabeats' smart device, leaf wellness tracker, should comprehensively track sleep time and offer goals of at least 7-8 hours a day of sleep. Implement sleep reminders and "wind down time" notifications to help with the transition of falling asleep.
+ * **Sleep Monitoring:** Bellabeats' smart device, leaf wellness tracker, should comprehensively track sleep time and offer goals of at least 7-8 hours a day of sleep. Implement sleep reminders and "wind down time" notifications to help with the transition of falling asleep.
 
- * **User Retention** To maintain a high user retention rate, Bellabeat should reward long standing members and create long term health goals for each user. In addition, to minimize the time users are not wearing the smart device, Bellabeat should focus on the comfortability of their product so users can continue wearing the device throughout the day, even while sleeping.
+ * **User Retention:** To maintain a high user retention rate, Bellabeat should reward long standing members and create long term health goals for each user. In addition, to minimize the time users are not wearing the smart device, Bellabeat should focus on the comfortability of their product so users can continue wearing the device throughout the day, even while sleeping.
  
- * **Personalized Health Programs** Provide users with the ability to create personalized profiles containing categories like gender, age, weight, height, BMI, and current activity. Users can also choose which goals they would like to focus on, and set up a window of time to receive reminders.
+ * **Personalized Health Programs:** Provide users with the ability to create personalized profiles containing categories like gender, age, weight, height, BMI, and current activity. Users can also choose which goals they would like to focus on, and set up a window of time to receive reminders.
  
- * **Activity Intensity Notifications** To raise awareness of different activity intensity levels, the device should notify users of their current activity level (sedentary, fairly active, lightly active, very active). An educational campaign could also explain how higher activity levels result in more calorie burn and clarify the metrics defining each activity level.
+ * **Activity Intensity Notifications:** To raise awareness of different activity intensity levels, the device should notify users of their current activity level (sedentary, fairly active, lightly active, very active). An educational campaign could also explain how higher activity levels result in more calorie burn and clarify the metrics defining each activity level.
   
-* **Research and Development** Invest in collecting more data with larger sample sizes containing key demographics such as gender, age, weight, height, and BMI. Research that focuses on Women's health will help to gain further insight on the target audience. 
+* **Research and Development:** Invest in collecting more data with larger sample sizes containing key demographics such as gender, age, weight, height, and BMI. Research that focuses on Women's health will help to gain further insight on the target audience. 
  
 Citations
 [^1]:Centers for Disease Control and Prevention. (n.d.). Physical Activity Basics. Retrieved from https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm
